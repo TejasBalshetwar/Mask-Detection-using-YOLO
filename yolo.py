@@ -10,7 +10,6 @@ class YOLO:
         self.confidence = confidence
         self.threshold = threshold
         self.size = size
-
         self.labels = labels
         self.net = cv2.dnn.readNetFromDarknet(config, model)
 
